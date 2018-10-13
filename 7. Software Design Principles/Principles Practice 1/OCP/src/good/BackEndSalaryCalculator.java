@@ -1,0 +1,17 @@
+package good;
+
+public class BackEndSalaryCalculator extends SalaryCalculator{
+
+	private double salary = 0.0;
+	
+	@Override
+	public void calculator() {
+		
+		this.salary = 2000;
+	}
+
+	@Override
+	public double getSalary() {
+		return salary;
+	}
+}
